@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Formy – Plateforme de découverte de projets créatifs
 
-## Getting Started
+Bienvenue sur **Formy**, la plateforme moderne pour découvrir, apprendre et s’initier à de nombreux domaines créatifs : développement, musique, 3D, vidéo, design, et plus encore !
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Lancer le projet en local
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prérequis
+- Node.js >= 18
+- pnpm (ou npm/yarn)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone le dépôt :
+   ```bash
+   git clone <url-du-repo>
+   cd Formy
+   ```
+2. Installe les dépendances :
+   ```bash
+   pnpm install
+   # ou
+   npm install
+   # ou
+   yarn install
+   ```
+3. Lance le serveur de développement :
+   ```bash
+   pnpm dev
+   # ou
+   npm run dev
+   # ou
+   yarn dev
+   ```
+4. Ouvre [http://localhost:3000](http://localhost:3000) dans ton navigateur.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ À propos du projet
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Formy est une application Next.js qui propose :
+- Un design premium, moderne et responsive
+- Un moteur de recherche intelligent avec suggestions visuelles
+- Des cartes interactives pour chaque domaine (Développement, Musique, 3D, Vidéo…)
+- Des pages de cours premium pour chaque application (Unity, Blender, Premiere Pro, etc.)
+- Navigation fluide et expérience utilisateur optimale
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Fonctionnalités principales
+- Découverte de projets par domaine
+- Recherche instantanée avec suggestions et logos
+- Accès direct à des mini-cours guidés pour chaque logiciel
+- Interface claire, accessible et agréable
 
-## Deploy on Vercel
+### Pourquoi utiliser Formy ?
+- Pour s’initier rapidement à de nouveaux outils créatifs
+- Pour centraliser l’accès à des ressources de qualité
+- Pour donner envie d’apprendre par la pratique
+- Pour promouvoir la diversité des disciplines numériques
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌟 Promotion
+
+> **Formy** – La plateforme qui donne envie d’apprendre et de créer !
+>
+> - Découvre des domaines variés (dev, musique, 3D, vidéo…)
+> - Lance-toi sur des projets concrets, même sans expérience
+> - Profite d’un design moderne et d’une navigation ultra-fluide
+> - Idéal pour les débutants, les curieux et les créatifs
+
+**Testez Formy dès maintenant et révélez votre potentiel créatif !**
+
+---
+
+## 📸 Aperçu visuel
+
+![Aperçu de Formy](./public/preview.png)
+
+---
+
+## 🛠️ Stack technique
+- Next.js 15
+- React 18
+- Tailwind CSS
+- Prisma (si backend activé)
+- Auth NextAuth.js (si besoin)
+
+---
+
+## 📬 Contact
+Pour toute question, suggestion ou collaboration : [Votre email ou lien LinkedIn]
