@@ -1,4 +1,4 @@
-import DiscoverySiteMockup from "./DiscoverySiteMockup";
+import DiscoverySiteMockup from "./components/DiscoverySiteMockup";
 
 export default function Home() {
   return (
