@@ -13,8 +13,8 @@ model User {
   name        String
   email       String       @unique
   password    String
-  courses     Course[]     @relation("CourseAuthor")
   completions Completion[]
+  courses     Course[]     @relation("CourseAuthor")
 }
 
 model Category {
@@ -29,18 +29,18 @@ model Course {
   description String
   level       Int
   duration    Int
-  author      User         @relation("CourseAuthor", fields: [authorId], references: [id])
   authorId    String
-  category    Category     @relation(fields: [categoryId], references: [id])
   categoryId  String
   completions Completion[]
+  author      User         @relation("CourseAuthor", fields: [authorId], references: [id])
+  category    Category     @relation(fields: [categoryId], references: [id])
 }
 
 model Completion {
   id          String   @id @default(uuid())
-  user        User     @relation(fields: [userId], references: [id])
   userId      String
-  course      Course   @relation(fields: [courseId], references: [id])
   courseId    String
   completedAt DateTime @default(now())
+  course      Course   @relation(fields: [courseId], references: [id])
+  user        User     @relation(fields: [userId], references: [id])
 }
