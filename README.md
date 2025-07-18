@@ -89,4 +89,4 @@ Formy est une application Next.js qui propose :
 ---
 
 ## 📬 Contact
-Pour toute question, suggestion ou collaboration : [Votre email ou lien LinkedIn]
+Pour toute question, suggestion ou collaboration : esteban.h0207@gmail.com
